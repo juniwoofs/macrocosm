@@ -12,6 +12,7 @@
     # - Gray # macro - uncomment to enable
     - Human
     - Moth
+    # - Ovinia # macro - uncomment to enable
     - Reptilian
     - SlimePerson
     - Vox
