@@ -139,6 +139,7 @@
     baseDecayRate: 0.1 # fix this to be 25% slower than normal (chewin they cud)
   - type: Thirst
     baseDecayRate: 0.1 # fix this to be 25% slower than normal
+  - type: SuperSleepy
 
 - type: entity
   parent: OrganBase

@@ -282,6 +282,18 @@ public sealed partial class SleepingSystem : EntitySystem
 
     private void OnStatusEffectApplied(Entity<ForcedSleepingStatusEffectComponent> ent, ref StatusEffectAppliedEvent args)
     {
+        // MACRO START: SuperSleepyComponent to modify force sleep duration
+        if (TryComp<SuperSleepyComponent>(args.Target, out var sleepy) &&
+            _statusEffect.TryGetTime(args.Target, StatusEffectForcedSleeping, out var initTime))
+        {
+            var time = initTime.EndEffectTime - initTime.StartEffectTime;
+            _statusEffect.TryUpdateStatusEffectDuration(
+                args.Target,
+                StatusEffectForcedSleeping,
+                time * sleepy.SleepMultiplier);
+        }
+        // MACRO END
+
         // Applying state check needed so we don't add SleepingComp during
         // entity reset due to the status effect getting inserted
         if (!_gameTiming.ApplyingState)
