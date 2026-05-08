@@ -283,6 +283,7 @@ public sealed partial class SleepingSystem : EntitySystem
     private void OnStatusEffectApplied(Entity<ForcedSleepingStatusEffectComponent> ent, ref StatusEffectAppliedEvent args)
     {
         // MACRO START: SuperSleepyComponent to modify force sleep duration
+        // IF YOU ARE HERE TO ADD MORE TRYCOMPS: dont. make a new event instead.
         if (TryComp<SuperSleepyComponent>(args.Target, out var sleepy) &&
             _statusEffect.TryGetTime(args.Target, StatusEffectForcedSleeping, out var initTime))
         {
