@@ -30,7 +30,7 @@
     enum.HumanoidVisualLayers.Snout:
       limit: 1
       required: true
-      default: [ OviniaSnoutDefault ]
+      default: [ OviniaSnout ]
     enum.HumanoidVisualLayers.Tail:
       limit: 1
       required: true
@@ -133,13 +133,16 @@
     allowedEmotes: [ 'Baa', 'Moo' ]
   - type: Damageable
     damageModifierSet: Ovinia
-  - type: Flammable
-    fireStackIncreaseMultiplier: .75 #wool isnt flammable
-  - type: Hunger
-    baseDecayRate: 0.1 # fix this to be 25% slower than normal (chewin they cud)
-  - type: Thirst
-    baseDecayRate: 0.1 # fix this to be 25% slower than normal
+#  - type: Flammable
+#    fireStackIncreaseMultiplier: .75 #wool isnt flammable
+#  - type: Hunger
+#    baseDecayRate: 0.1 # fix this to be 25% slower than normal (chewin they cud)
+#  - type: Thirst
+#    baseDecayRate: 0.1 # fix this to be 25% slower than normal
   - type: SuperSleepy
+  - type: Tag
+    tags:
+    - OviniaEmotes
 
 - type: entity
   parent: OrganBase

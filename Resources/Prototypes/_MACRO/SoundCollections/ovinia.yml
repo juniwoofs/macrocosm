@@ -8,7 +8,7 @@
 - type: soundCollection
   id: CowMoo
   files:
-  - /Audio/_MACRO/Voice/Ovinia/cow-moo1.ogg
-  - /Audio/_MACRO/Voice/Ovinia/cow-moo2.ogg
-  - /Audio/_MACRO/Voice/Ovinia/cow-moo3.ogg
-  - /Audio/_MACRO/Voice/Ovinia/cow-moo4.ogg
+  - /Audio/_MACRO/Voice/Ovinia/ovinia-moo1.ogg
+  - /Audio/_MACRO/Voice/Ovinia/ovinia-moo2.ogg
+  - /Audio/_MACRO/Voice/Ovinia/ovinia-moo3.ogg
+  - /Audio/_MACRO/Voice/Ovinia/ovinia-moo4.ogg
