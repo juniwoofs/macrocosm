@@ -1,4 +1,4 @@
-﻿# MACROCOSM - If you enable extra species, uncomment their related guideEntry prototype here to add them to the guidebook for your players!
+# MACROCOSM - If you enable extra species, uncomment their related guideEntry prototype here to add them to the guidebook for your players!
 
 #- type: guideEntry
 #  id: Gray
@@ -19,6 +19,11 @@
 #  id: Allulalo
 #  name: Allulalo
 #  text: "/ServerInfo/_MACRO/Guidebook/Mobs/Allulalo.xml"
+
+#- type: guideEntry
+#  id: Ant
+#  name: Ant
+#  text: "/ServerInfo/_MACRO/Guidebook/Mobs/Ant.xml"
 
 #- type: guideEntry
 #  id: Ovinia
