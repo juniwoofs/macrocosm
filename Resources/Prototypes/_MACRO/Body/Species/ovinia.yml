@@ -135,13 +135,17 @@
     damageModifierSet: Ovinia
 #  - type: Flammable
 #    fireStackIncreaseMultiplier: .75 #wool isnt flammable
-#  - type: Hunger
-#    baseDecayRate: 0.1 # fix this to be 25% slower than normal (chewin they cud)
-#  - type: Thirst
-#    baseDecayRate: 0.1 # fix this to be 25% slower than normal
+  - type: Hunger
+    baseDecayRate: 0.0083 # slower than normal (chewin they cud)
+  - type: Thirst
+    baseDecayRate: 0.0083 # slower than normal
   - type: SuperSleepy
   - type: BetterPetter
     multiplier: 1.2
+  - type: ProtectedFromStepTriggers
+    whitelist:
+      types:
+        - Shard # hooves are shoes for sheeple
   - type: Tag
     tags:
     - OviniaEmotes
