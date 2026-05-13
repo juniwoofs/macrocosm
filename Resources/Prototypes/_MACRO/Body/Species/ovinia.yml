@@ -133,8 +133,8 @@
     allowedEmotes: [ 'Baa', 'Moo' ]
   - type: Damageable
     damageModifierSet: Ovinia
-#  - type: Flammable
-#    fireStackIncreaseMultiplier: .75 #wool isnt flammable
+  - type: Flammable
+    firestackMultiplier: .75 #wool isnt flammable
   - type: Hunger
     baseDecayRate: 0.0083 # slower than normal (chewin they cud)
   - type: Thirst
