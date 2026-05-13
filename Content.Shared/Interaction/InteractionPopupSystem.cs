@@ -91,7 +91,15 @@ public sealed class InteractionPopupSystem : EntitySystem
         if (_netMan.IsClient && !predict)
             return;
 
-        if (_random.Prob(component.SuccessChance))
+        // MACRO ADD: BetterPetter
+        // TODO: this is a very generic system. we probably need a whitelist of some kind
+        var successChance =
+            TryComp<BetterPetterComponent>(user, out var petter) ?
+            component.SuccessChance * petter.Multiplier :
+            component.SuccessChance;
+        // MACRO END
+
+        if (_random.Prob(successChance)) // MACRO: component.SuccessChance -> successChance
         {
             if (component.InteractSuccessString != null)
                 msg = Loc.GetString(component.InteractSuccessString, ("target", Identity.Entity(uid, EntityManager))); // Success message (localized).
