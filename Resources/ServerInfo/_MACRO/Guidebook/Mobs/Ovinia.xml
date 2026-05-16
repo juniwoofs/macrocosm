@@ -1,30 +1,30 @@
-#THIS NEEDS A REWRITE SO BAD THIS SUUUUUCKS RAAAAAAH
-
 <Document>
- # Ovinia, The Galaxy's Herders
-(lore written under this section is provided by 2blahajs on Discord or juniwoofs on GitHub)
+ # Ovinia
 
- <Box>
-    <GuideEntityEmbed Entity="MobOvinia" Caption=""/>
-  </Box>
+<Box>
+  <GuideEntityEmbed Entity="MobOvinia" Caption=""/>
+</Box>
 
-## Benefits
-- They Take 20% less heat, cold, and shock damage due to their insulating wool and are 25% less flammible
-- They digest food at a slower rate, becoming hungry and thirsty 25% slower
-- Their hooved feet protect them from shards of glass and sharp floor hazards
-- Their docile attitudes and aptitude for nature have led most animals to be friendly towards them
+Ovina are a species of ruminant-like humanoids native to the pasture world of Runia, located in the binary Lanei system. Known for its vast, flowing pastures and pristine waterbeds, this world was notably only at a tribal stage of civilization at the time of first contact, and has since been rapidly elevated through technological intervention into a space-faring society.
 
-## Downsides
-- They take 15% increased slash and pierce damage.
-- Will get poisoned by Theobromine (Chocolate, Tea, Coffee) and Allicin (Onion, Garlic).
-- Their aptitude for grazing and chewing cud has led to them consuming food and drink 20% slower than most species
+## Physiology
 
-## A Brief Introduction
-The Ovinia are a species of ruminant-like humaniods native to the pasture world of Runia located in the binary Lanei system. This world of flowing green pastures crossed by pristine rivers and almost alpine ranges of mountain was home to a tribal civilization at the time of their first contact with the outside galaxy.
+Ovina posess a dense, sturdy build, with strong musculature and [color=#1e90ff]hard-wearing hooves, which protect their feet from most common hazards, such as broken glass[/color]. In addition, their body is mostly coated in thick, insulative wool, which [color=#1e90ff]reduces their heat, cold and shock damage taken by 20%, as well as reducing their overall flammability by around 25%[/color]. Their coat, however, does little to protect them from physical harm, and their musculature is [color=#ffa500]15% more vulnerable to slash and piercing damage[/color].
 
-Ovinia are densely built ruminant-like humanoids that usually all possess a coat of fluffy wool that is prized among their species. An Ovinia's wool is their pride and joy, and the act of sharing their wool or gifting their wool is one of incredible significance. Ovinia are a relatively naturalistic species, often forgoing clothing in favour of their natural coats. Though with influences from the outside galaxy, some Ovinia have taken to fashion quite warmly.
+<Box>
+  <GuideEntityEmbed Entity="ClothingHeadPyjamaSyndicateBlack" Caption=""/>
+</Box>
 
+The evolutionary advantages of this coat, however, come at a cost. Almost 73% of their metabolic intake is dedicated purely to growing their wool, and as of such they are often [color=#ffa500]sleepy and docile, causing them to sleep for far longer periods than most species[/color]. Notably, however, their gentle demeanor and naturalistic tendencies [color=#1e90ff]cause wild animals to behave in a much more docile manner around them[/color].
+This lopsided metabolic structure also manifests in their digestive system "slow-burning" food to increase efficiency, resulting in them [color=#1e90ff]becoming hungry and thirsty 25% slower[/color], although their evolutionary background of grazing has led them to [color=#ffa500]chew food and drink fluids roughly 20% slower than an average human[/color] in the same age and physical performance range. Notably, they also join Moths, Reptiles and various other species in being [color=#ffa500]poisoned by Theobromine (Chocolate, Tea, Coffee) and Allicin (Onion, Garlic)[/color].
 
+## Culture
+
+An Ovina's woolen coat is deeply important to both their physical and mental wellbeing, holding an incredibly high significance in Ovina culture. They pride themselves on their coat, and hold great import in their ability to [color=#1e90ff]share and gift their excess wool to others[/color], and often forgo standard Nanotrasen uniform options to avoid hiding it, though exposure to outside cultural influence has trended to warm them to more traditional fashion. It is [bold]highly[/bold] recommended for staff to maintain respect regarding their wool as to not cause workplace incidents.
+
+## Ovina Naming Conventions
+
+(not implemented yet?)
+  - [color=#449944]Acceptable:[/color] Sophie Baasa
+  - [color=#994444]Bad:[/color] Benry
 </Document>
-
-# okay so changes from 
