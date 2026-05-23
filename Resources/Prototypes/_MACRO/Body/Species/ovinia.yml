@@ -143,9 +143,6 @@
   - type: BetterPetter
     multiplier: 1.2
   - type: ProtectedFromStepTriggers
-    whitelist:
-      types:
-        - Shard # hooves are shoes for sheeple
   - type: Tag
     tags:
     - OviniaEmotes
