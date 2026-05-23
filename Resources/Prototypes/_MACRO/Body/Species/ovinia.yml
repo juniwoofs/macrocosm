@@ -146,6 +146,9 @@
   - type: Tag
     tags:
     - OviniaEmotes
+  - type: NpcFactionMember
+    factions:
+    - AnimalFriend
 
 - type: entity
   parent: OrganBase

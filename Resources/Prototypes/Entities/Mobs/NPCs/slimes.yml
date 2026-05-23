@@ -161,6 +161,7 @@
     - type: NpcFactionMember
       factions:
         - SimpleHostile
+        - AnimalFriend # MACRO
     - type: GhostRole
       description: ghost-role-information-angry-slimes-description
       rules: ghost-role-information-angry-slimes-rules
@@ -201,6 +202,7 @@
     - type: NpcFactionMember
       factions:
         - SimpleHostile
+        - AnimalFriend # MACRO
     - type: GhostRole
       description: ghost-role-information-angry-slimes-description
       rules: ghost-role-information-angry-slimes-rules
@@ -240,6 +242,7 @@
     - type: NpcFactionMember
       factions:
         - SimpleHostile
+        - AnimalFriend # MACRO
     - type: GhostRole
       description: ghost-role-information-angry-slimes-description
       rules: ghost-role-information-angry-slimes-rules
