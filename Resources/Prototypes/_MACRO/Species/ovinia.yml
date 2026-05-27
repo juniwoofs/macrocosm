@@ -7,9 +7,9 @@
   defaultSkinTone: "#ffffff"
   dollPrototype: AppearanceOvinia
   skinColoration: Hues
-  maleFirstNames: NamesFirstMale
-  femaleFirstNames: NamesFirstFemale
-  lastNames: NamesLast
+  maleFirstNames: NamesOviniaFirst
+  femaleFirstNames: NamesOviniaFirst
+  lastNames: NamesOviniaLast
   sexes:
   - Male
   - Female
@@ -22,7 +22,7 @@
 # In return however, they are weaker to slash and pierce and cannot consume theobromine.
 # Additionally, Ovinia's hooved feet protect them from sharp floor hazards like shards of glass.
 # Most animals additionally are neutral towards Ovinia until provoked due to their docile temperments.
-# Also, due to their unique biology and multiple stomachs, ovinia absorb nutrients more efficiently, 
+# Also, due to their unique biology and multiple stomachs, ovinia absorb nutrients more efficiently,
 # leading to them to go a longer time without getting hungry or thirsty, though they spend extra time consuming.
 #
 # You might want to enable them for another morphotype for players to use to make characters.
