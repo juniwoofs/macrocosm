@@ -423,9 +423,10 @@ public sealed partial class IngestionSystem : EntitySystem
     {
         var forceFeed = user != target;
 
-        // MACRO - Allow modifying the time it takes to eat
+        // MACRO START - Allow modifying the time it takes to eat
         if (TryComp<EatTimeModifierComponent>(user, out var slowEater))
             delay *= slowEater.Multiplier;
+        // MACRO END
 
         var doAfterArgs = new DoAfterArgs(EntityManager, user, delay, new EatingDoAfterEvent(), target, food)
         {
