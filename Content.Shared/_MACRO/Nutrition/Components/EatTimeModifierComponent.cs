@@ -12,5 +12,5 @@ public sealed partial class EatTimeModifierComponent : Component
     /// The amount you would like to multiply the delay on the eating doAfter
     /// </summary>
     [DataField]
-    public float Multiplier = 1.5f;
+    public float Multiplier = 1f;
 }
