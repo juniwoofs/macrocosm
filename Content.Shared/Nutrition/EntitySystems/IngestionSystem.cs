@@ -1,4 +1,5 @@
-﻿using Content.Shared.Administration.Logs;
+﻿using Content.Shared._MACRO.Nutrition.Components; // MACRO
+using Content.Shared.Administration.Logs;
 using Content.Shared.Body;
 using Content.Shared.Body.Components;
 using Content.Shared.Body.Systems;
@@ -421,6 +422,10 @@ public sealed partial class IngestionSystem : EntitySystem
     private DoAfterArgs GetEdibleDoAfterArgs(EntityUid user, EntityUid target, EntityUid food, TimeSpan delay = default)
     {
         var forceFeed = user != target;
+
+        // MACRO
+        if (TryComp<SlowEaterComponent>(user, out var slowEater))
+            delay *= slowEater.Multiplier;
 
         var doAfterArgs = new DoAfterArgs(EntityManager, user, delay, new EatingDoAfterEvent(), target, food)
         {
