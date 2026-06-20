@@ -4,8 +4,11 @@ namespace Content.Shared._MACRO.Nutrition.Components;
 /// This component is used to slow down the time to eat food by a specific multiplier
 /// </summary>
 [RegisterComponent]
-public sealed partial class SlowEaterComponent : Component
+public sealed partial class EatTimeModifierComponent : Component
 {
+    /// <summary>
+    /// The amount you would like to multiply the delay on the eating doAfter
+    /// </summary>
     [DataField]
     public float Multiplier = 1.5f;
 }
